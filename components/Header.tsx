@@ -20,8 +20,11 @@ function Header() {
         </div>
       </div>
 
-      <div>
+      <div className="flex flex-col ml-auto text-right">
         <Bars3BottomRightIcon className="h-8 w-8 mx-auto text-white cursor-pointer" />
+        <span className="md:hidden">
+          <NavButton title="Logout" />
+        </span>
       </div>
     </header>
   );
