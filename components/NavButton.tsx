@@ -1,7 +1,11 @@
 import React from "react";
 
-function NavButton() {
-  return <div>NavButton</div>;
+interface Props {
+  title: string;
+}
+
+function NavButton({ title }: Props) {
+  return <button>{title}</button>;
 }
 
 export default NavButton;

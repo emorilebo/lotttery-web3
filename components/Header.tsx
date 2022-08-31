@@ -1,4 +1,5 @@
 import React from "react";
+import NavButton from "./NavButton";
 
 function Header() {
   return (
@@ -12,8 +13,9 @@ function Header() {
       </div>
 
       <div>
-        <div>
-            
+        <div className="bg-[#0A1F1C]">
+            <NavButton/>
+            <NavButton/>
         </div>
       </div>
     </div>
