@@ -14,8 +14,8 @@ function Header() {
 
       <div>
         <div className="bg-[#0A1F1C]">
-            <NavButton/>
-            <NavButton/>
+          <NavButton isActive title="Buy Tickets" />
+          <NavButton title="Logout" />
         </div>
       </div>
     </div>
