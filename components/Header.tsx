@@ -4,7 +4,7 @@ import { Bars3BottomRightIcon } from "@heroicons/react/24/solid";
 
 function Header() {
   return (
-    <header className="grid grid-cols-3">
+    <header className="grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5">
       <div className="flex items-center space-x-2">
         <img className="h-20 w-20 rounded-full" src="/emori.jpeg" alt="emori" />
         <div>
@@ -13,7 +13,7 @@ function Header() {
         </div>
       </div>
 
-      <div>
+      <div className="hidden  md:flex  items-center justify-center rounded-md md:col-span-3">
         <div className="bg-[#0A1F1C] p-4 space-x-2">
           <NavButton isActive title="Buy Tickets" />
           <NavButton title="Logout" />
