@@ -10,6 +10,12 @@ function Header() {
           <p className="text-sm text-emerald-500 truncate">User...</p>
         </div>
       </div>
+
+      <div>
+        <div>
+            
+        </div>
+      </div>
     </div>
   );
 }
