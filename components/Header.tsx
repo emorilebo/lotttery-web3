@@ -9,7 +9,7 @@ function Header() {
         <img className="h-20 w-20 rounded-full" src="/emori.jpeg" alt="emori" />
         <div>
           <h1 className="text-lg text-white font-bold">
-            The Curiosity Lottery
+            The Curiosity Lottery Game
           </h1>
           <p className="text-sm text-emerald-500 truncate">User...</p>
         </div>
