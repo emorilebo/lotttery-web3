@@ -17,7 +17,7 @@ function Header() {
 
       <div className=" hidden md:flex  items-center justify-center rounded-md md:col-span-3">
         <div className="bg-[#0A1F1C] p-4 space-x-2">
-          <NavButton isActive title="Buy Tickets for " />
+          <NavButton isActive title="Buy Tickets" />
           <NavButton title="Logout" />
         </div>
       </div>
